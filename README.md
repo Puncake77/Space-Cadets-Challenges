@@ -3,7 +3,8 @@ This weeks challenge is to implement a Bare Bones interpreter. The program shoul
 
 You will almost certainly want to look at the String.split() as a starting point or possibly the java.util.regex package. Think carefully about the internal structure of your interpreter, try and come up with a decent object oriented design. Also beware of the nested while loop!
 ## Assumptions
-The BareBones language is quite underspecified. From http://www.brouhaha.com/~eric/software/barebones/bare_bones_language_summary.html, I can see that in the same book the language was created in, an extension of the language to include variable initialisation and declaration as 'init [VAR_NAME] = [INTEGER];'. I have decided NOT to implement this.
+The BareBones language is quite underspecified.
+From http://www.brouhaha.com/~eric/software/barebones/bare_bones_language_summary.html, I can see that in the same book the language was created in, an extension of the language to include variable initialisation and declaration as 'init [VAR_NAME] = [INTEGER];'. I have decided NOT to implement this.
 
 I have, however, decided that the 'end;' command can be used independantly of a while loop for the purpose of denoting the end of the program. I have not made this a requirement, but rather used this for better styled programs.
 
