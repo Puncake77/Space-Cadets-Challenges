@@ -2,7 +2,7 @@
 This weeks challenge is to extend the Bare Bones interpreter.
 
 ## Assumptions & Changes
-I have now implemented explicitly initialized varaibles 'init [VAR_NAME] = [VALUE];'.
+I have now implemented explicitly initialized varaibles `init [VAR_NAME] = [VALUE];`.
 
 I have also added if & else statements, whilst omitting 'else if's. The syntax is:
 ```
@@ -21,9 +21,9 @@ All other implementations from the older version has been kept such as nested an
 ## Usage
 javac Main.java BBInterpreter.java
 
-java Main.java [FILE_NAME].bb
+java Main.java `[FILE_NAME].bb`
 
 # Test Files
-You will find 3 test files in this branch, two of which are the test files supplied in last weeks challenge. I have coded my own barebones program to test my if statements functionality. The 'bool' variables indicate a successful test if the value is 'true' (1). [IfTesting.bb]
+You will find 3 test files in this branch, two of which are the test files supplied in last weeks challenge. I have coded my own barebones program to test my if statements functionality. The 'bool' variables indicate a successful test if the value is 'true' (1). `IfTesting.bb`
 
 
