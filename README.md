@@ -5,6 +5,8 @@ This weeks challenge was to create a chat server between server and client! I wo
 I have implemented this chat using `System.console.readLine();`, so the programs will not run in environments such as IDEs.
 
 ### Server
+Both `ChatServer` and `ChatServerThread` classes must be in the same source directory to be able to start the server.
+
 In the command prompt, use `java ChatServer [PORT_NUMBER]` to start the server and listen on the specific port. To increase the chance of using a free port, ports are only allowed in range 1024-65535.
 
 Once the server has started, it will remain active until closed forcibly such as closing the command prompt. It will display any messages and statuses whilst running.
